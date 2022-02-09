@@ -1,8 +1,6 @@
 let min = 1,
   max = 10,
-  winningNum = Math.floor(Math.random(min, max) * 10);
-guessesLeft = 3;
-i = 1;
+   winningNum = Math.floor(Math.random() * (max - min) + min);
 
 
 
